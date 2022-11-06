@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.15.27
+- hosts: all
   become: yes
   tasks:
      - name: i want install tree
